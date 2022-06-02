@@ -7,29 +7,29 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_play"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pause"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_pause"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_stop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_play" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_stop"
@@ -37,5 +37,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_pause" />
 </androidx.constraintlayout.widget.ConstraintLayout>
